@@ -13,6 +13,7 @@
             <label for="city">都市名を入力してください:</label>
             <input type="text" id="city" name="city" placeholder="例: Tokyo" value="<?php echo htmlspecialchars($_GET['city'] ?? ''); ?>">
             <button type="submit">天気を見る</button>
+            <button onclick="location.href='index.php'">リセット</button>
         </form>
 
         <?php
